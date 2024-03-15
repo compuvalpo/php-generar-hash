@@ -31,12 +31,14 @@ function GenerarHash(){
 				if(data){
 					setTimeout(function () {
 
+						let div = '<div class="input-group col-12 mb-2"><span class="btn-primary badge">';
+						
 						$('.card-data').html("");
-						$('.card-data').append('<div class="input-group col-12 mb-2"><span class="form-control" id="">'+ data.md5 +'</span></div>');
-						$('.card-data').append('<div class="input-group col-12 mb-2"><span class="form-control" id="">'+ data.sha1 +'</span></div>');
-						$('.card-data').append('<div class="input-group col-12 mb-2"><span class="form-control" id="">'+ data.sha256 +'</span></div>');
-						$('.card-data').append('<div class="input-group col-12 mb-2"><span class="form-control" id="">'+ data.sha512 +'</span></div>');
-						$('.card-data').append('<div class="input-group col-12 mb-2"><span class="form-control" id="">'+ data.whirlpool +'</span></div>');
+						$('.card-data').append(div +'MD5</span><span class="form-control" id="md5">'+ data.md5 +'</span></div>');
+						$('.card-data').append(div +'SHA1</span><span class="form-control" id="sha1">'+ data.sha1 +'</span></div>');
+						$('.card-data').append(div +'SHA256</span><span class="form-control" id="sha256">'+ data.sha256 +'</span></div>');
+						$('.card-data').append(div +'SHA512</span><span class="form-control" id="sha512">'+ data.sha512 +'</span></div>');
+						$('.card-data').append(div +'WHIRLPOOL</span><span class="form-control" id="whirlpool">'+ data.whirlpool +'</span></div>');
 
 					}, 100);
 					//SwalMensaje('Hash Generados', 'Se han generado los Hash.', 'success');
