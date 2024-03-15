@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="compuvalpo@gmail.com">
+    <meta name = "description" content = "HTML CSS Base para pruebas y ejemplos." />
+    <title>PHP Generar Hash</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery-3.7.1.min.js">></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/sweetalert2.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/all.min.css" />
+</head>
+<body>
+	<div class="container mb-4">
+
+		<main id="content">
+			<h1 class="title mb-1">PHP Generar Hash</h1>
+			<h6 class="title mb-4">md5/sha1/sha256/sha512</h6>
+
+			<div class="container-fluid">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-sm-12">
+					<div class="card">
+						<div class="card-header">
+							<div class="input-group col-12 mb-2">
+								<input type="text" class="form-control" id="inputData" name="inputData" placeholder="Ingrese Texto para los Hash">
+								<button class="btn btn-primary" onclick="GenerarHash();">
+									 <i class="fa-solid fa-circle-plus"></i> Generar 
+								</button>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<h5 class="card-title text-primary mb-3">Lista de Hash</h5>
+							<div class="card-data"> </div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+	
+</body>
+</html>
