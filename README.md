@@ -15,5 +15,5 @@ git clone https://github.com/compuvalpo/php-generar-hash.git
 ```
 
 ## Capturas
-![Ejemplo 1](capturas/1_ejemplo.png)
-![Ejemplo 2](capturas/2_ejemplo.png)
+![Ejemplo 1](capturas/ejemplo_1.png)
+![Ejemplo 2](capturas/ejemplo_2.png)
