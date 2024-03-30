@@ -31,7 +31,7 @@ function GenerarHash(){
 				if(data){
 					setTimeout(function () {
 
-						let div = '<div class="input-group col-12 mb-2"><span class="btn-primary badge">';
+						let div = '<div class="input-group col-12 mb-2"><span class="btn-primary badge d-flex align-items-center">';
 						
 						$('.card-data').html("");
 						$('.card-data').append(div +'MD5</span><span class="form-control" id="md5">'+ data.md5 +'</span></div>');
