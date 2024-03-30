@@ -43,11 +43,11 @@ function GenerarHash(){
 					}, 100);
 					//SwalMensaje('Hash Generados', 'Se han generado los Hash.', 'success');
 				}else{
-					SwalMensaje('Error', 'Error al intentar de generar los Hash.', 'error');
+					SwalMensaje('Hash no Generados', 'No se han generado los Hash.', 'error');
 				}
             },
             error: function(jqXHR, status, error) {
-				SwalMensaje('Hash no Generados', 'No se han generado los Hash.', 'error');
+				SwalMensaje('Error', 'Error al intentar de generar los Hash.', 'error');
             }
         });
 	
